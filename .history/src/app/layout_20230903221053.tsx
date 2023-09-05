@@ -1,5 +1,5 @@
 import './globals.css'
-import '../../css/style.css'
+import './'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 

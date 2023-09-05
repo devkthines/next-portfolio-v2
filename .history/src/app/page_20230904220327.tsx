@@ -12,9 +12,8 @@ export default function Home() {
         <Image id='portrait' src={uglyMe} alt="" className='w-48' />
       </div>
       <div id='about'>
-
-          <div>  <h1>About </h1>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis corrupti impedit esse voluptatum enim
+        <div><h1>About </h1>
+          <div><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis corrupti impedit esse voluptatum enim
             nesciunt
             eligendi odit ex magni adipisci officiis nobis vero incidunt quia saepe inventore, consequatur
             temporibus quisquam quasi laudantium optio? Dignissimos saepe, perferendis in nisi delectus neque libero maiores
@@ -57,6 +56,8 @@ export default function Home() {
             <h1>Experience</h1> <h2>Include Resume Link</h2>
             <div>
               <h1>Timeline Here</h1>
+
+            </div>
           </div>
         </div>
       </div>
