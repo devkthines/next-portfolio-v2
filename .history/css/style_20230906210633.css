@@ -1,0 +1,10 @@
+﻿*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.infoSection{""}
+#portrait{
+    width: 500px;
+    height: 700px;
+}
