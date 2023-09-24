@@ -1,0 +1,31 @@
+﻿@media screen and (min-width: 640px){
+
+main{
+    /* color: white!important; */
+}
+}
+@media screen and (min-width: 768px){
+#portraitCol{
+
+    justify-content: start;
+}
+#infoCol{
+    justify-content: end;
+    /* text-align: end; */
+}
+}
+@media screen and (min-width: 1024px){
+
+    #topNav{
+        display:flex ;
+    }
+    #bottomNav{
+        display: none;
+    }
+}
+@media screen and (min-width: 1280px){
+
+}
+@media screen and (min-width: 1536px){
+
+}

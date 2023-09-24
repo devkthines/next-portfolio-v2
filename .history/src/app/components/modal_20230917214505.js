@@ -1,0 +1,48 @@
+﻿'use client'
+import Card from 'react-bootstrap/Card';
+import Modal from 'react-bootstrap/Modal';
+import Image from 'next/image';
+import { AiFillCloseCircle } from 'react-icons/ai';
+import { AiOutlineCloseCircle } from 'react-icons/ai';
+import { useState } from 'react';
+
+export default function ProjectModal() {
+    const [button, setButton] = useState(<AiFillCloseCircle></AiFillCloseCircle>)
+    return (
+        <>
+            {/* <div>
+                <button
+                    onMouseEnter={() => setButton(<AiOutlineCloseCircle></AiOutlineCloseCircle>)}
+                    onMouseLeave={() => setButton(<AiFillCloseCircle></AiFillCloseCircle>)}
+                >
+                    {button}
+                </button>
+                <div>
+                    <img src="" alt="" />
+                </div>
+            </div> */}
+  <Card
+    style={{
+      width: 300,
+    }}
+    cover={
+      <img
+        alt="example"
+        src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+      />
+    }
+    actions={[
+      <SettingOutlined key="setting" />,
+      <EditOutlined key="edit" />,
+      <EllipsisOutlined key="ellipsis" />,
+    ]}
+  >
+    <Meta
+      avatar={<Avatar src="https://xsgames.co/randomusers/avatar.php?g=pixel" />}
+      title="Card title"
+      description="This is the description"
+    />
+  </Card>
+        </>
+    )
+}

@@ -1,0 +1,38 @@
+﻿@media screen and (min-width: 640px){
+
+    /* background-color: green!important; */
+    #portrait{
+        width: 500px;
+        height: 500px;
+        /* border-radius: 0 0 2rem 2rem; */
+
+    }
+
+main{
+    /* color: white!important; */
+}
+}
+@media screen and (min-width: 768px){
+#portraitCol{
+
+    justify-content: start;
+}
+#infoCol{
+    justify-content: end;
+    /* text-align: end; */
+}
+}
+@media screen and (min-width: 1024px){
+    #portrait{
+        width: 600px;
+        height: 600px;
+        /* border-radius: 0 0 2rem 2rem; */
+    }
+    #
+}
+@media screen and (min-width: 1280px){
+
+}
+@media screen and (min-width: 1536px){
+
+}

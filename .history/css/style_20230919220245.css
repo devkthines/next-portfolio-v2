@@ -1,0 +1,60 @@
+﻿*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Consolas,"Courier New",monospace;
+    /* background-color: #222222; */
+    color: white;
+}
+.infoSection{
+
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    /* margin-bottom: 20vh; */
+    background-color: #222222;
+}
+
+.aboutSection{
+    /* width: 80vw; */
+    padding-top: 200px;
+    height: 70vh;
+    background-color: rgb(24, 24, 24);
+}
+#portrait{
+    width: 700px;
+    height: 60vh;
+    /* border-radius: 0 0 2rem 2rem; */
+}
+.imgTest{
+    margin: 10px;
+}
+.imgTest:active{
+    flex-grow:10000;
+    transform:scale(1);
+
+    max-width:600px;
+    margin:0px;
+    border-radius:40px;
+
+    background-size:auto 100%;
+}
+
+.tab-content{
+    height: 100%!important;
+    margin-left: 25%!important;
+}
+.color-change{
+    background-color: greenyellow;
+}
+.noShow{
+    display: none;
+}
+.buttonShow{
+    display: block;
+}
+
+#tile1{
+    width: 700px;
+    height: 500px;
+}
