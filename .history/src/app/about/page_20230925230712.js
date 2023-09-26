@@ -49,9 +49,9 @@ export default function About() {
 
       <Row>
 
-        <Col xs={4} id='firstCol' className='d-flex align-items-center'>
+        <Col xs={3} id='firstCol' className='d-flex align-items-center'>
           <img variant="top" id='aboutImg' src='/images/image_6487327.JPG' /> </Col>
-        <Col xs={8}>
+        <Col xs={9}>
           <div>
 
             <div id='info' className=''>

@@ -187,20 +187,19 @@ a.nav-link {
     height: 90vh;
     /* overflow: hidden; */
     /* padding: 25px; */
-background-color: #222222;
+ background: linear-gradient(white, #222222, # white);
     /* border: 2px solid #569cd6; */
     /* border-radius: 12px; */
 }
 
 #aboutImg{
     /* width: %; */
-    /* height: 75%; */
-    /* padding: 15px 15px 30px; */
-    /* border-radius: 50px; */
-    height: 100%;
+    height: 75%;
+    padding: 15px 15px 30px;
+    border-radius: 50px;
 }
 #firstCol{
-    /* width: 25vw; */
+    width: 25vw;
     /* height: 60vh; */
 }
 #aboutcard{

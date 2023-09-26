@@ -163,15 +163,12 @@ a.nav-link {
     /* top: 0; */
     width: 100%;
     height: 5vh;
-    /* border-bottom: #222222 2px solid; */
 }
 
 #footer {
     display: flex;
     justify-content: space-between;
     padding: 0 25px;
-    height: 5vh;
-
 }
 
 #bottomNav {
@@ -186,22 +183,12 @@ a.nav-link {
     /* margin-top: 10vh; */
     height: 90vh;
     /* overflow: hidden; */
-    /* padding: 25px; */
-background-color: #222222;
-    /* border: 2px solid #569cd6; */
-    /* border-radius: 12px; */
 }
 
 #aboutImg{
-    /* width: %; */
-    /* height: 75%; */
-    /* padding: 15px 15px 30px; */
-    /* border-radius: 50px; */
-    height: 100%;
-}
-#firstCol{
-    /* width: 25vw; */
-    /* height: 60vh; */
+    width: 400px;
+    /* height: ; */
+    padding: 15px 15px 30px;
 }
 #aboutcard{
     box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
@@ -217,30 +204,22 @@ background-color: #222222;
     width: 200px;
     height: 200px;
 }
-
+#abtTop{
+    height: 45vh;
+}
+#abtBtm{
+    height: 45vh;
+}
+#abtLeft{
+    /* width: 25vw; */
+}
+#abtRight{
+    /* width: 75vw; */
+}
 .aboutImgs{
     width: 250px;
     height: 250px;
-    margin: 5px;
 }
-
-#abouttext{
-width: 500px;
-}
-#progress{
-width: 500px;
-
-}
-#timeline{
-    width: 500px;
-}
-#info{
-    height: 250px;
-    /* display: flex; */
-    /* justify-content: space-evenly; */
-
-}
-.spanabout{
-    font-size: 20px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+#aboutImgs{
+    margin: ;
 }

@@ -197,10 +197,11 @@ background-color: #222222;
     /* height: 75%; */
     /* padding: 15px 15px 30px; */
     /* border-radius: 50px; */
-    height: 100%;
+    height: 100
+    5;
 }
 #firstCol{
-    /* width: 25vw; */
+    width: 25vw;
     /* height: 60vh; */
 }
 #aboutcard{

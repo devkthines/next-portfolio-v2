@@ -49,14 +49,18 @@ export default function About() {
 
       <Row>
 
-        <Col xs={4} id='firstCol' className='d-flex align-items-center'>
-          <img variant="top" id='aboutImg' src='/images/image_6487327.JPG' /> </Col>
-        <Col xs={8}>
+        <Col xs={3} id='firstCol' className='d-flex align-items-center'>
+          <img variant="top" id='aboutImg' src='/images/IMG-update.jpg' /> </Col>
+        <Col xs={9}>
           <div>
+            <div id='aboutImgs' className='d-flex'>
+              <img className='aboutImgs' src="/images/webstorm-vs-vscode.jpeg" alt="" />
+              <img className='aboutImgs' src="/images/webstorm-vs-vscode.jpeg" alt="" />
+              <img className='aboutImgs' src="/images/webstorm-vs-vscode.jpeg" alt="" />
+            </div>
+            <div id='info' className='d-'> <span className='spanabout'>About</span>
+              <div id='abouttext'>
 
-            <div id='info' className=''>
-           <div className='cavani'><span className='spanabout'>About</span></div>
-             <div className='d-flex justify-content-around'><div id='abouttext'>
                 <p>Hello there! My name is Alan Walker. I am
                   a graphic designer, and I'm very passionate and dedicated to my work.
                   With 20 years experience as a professional a graphic designer,
@@ -68,7 +72,7 @@ export default function About() {
                 <li>Mail: &nbsp;  Korey Hines</li>
                 <li>Phone: &nbsp;  Korey Hines</li>
                 </ul>
-            </div></div>
+            </div>
             <div id='' className='d-flex'>
               <div id='progress'>
                 <h1>Proficiencies</h1>
@@ -113,11 +117,7 @@ export default function About() {
               </div>
               <div>
                 </div>
-                </div> <div id='aboutImgs' className='d-flex justify-content-between'>
-              <img className='aboutImgs' src="/images/webstorm-vs-vscode.jpeg" alt="" />
-              <img className='aboutImgs' src="/images/webstorm-vs-vscode.jpeg" alt="" />
-              <img className='aboutImgs' src="/images/webstorm-vs-vscode.jpeg" alt="" />
-            </div>
+                </div>
            </div>
               </Col>
 
